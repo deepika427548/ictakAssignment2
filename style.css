@@ -1,0 +1,133 @@
+
+*{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    background-color: rgb(36, 145, 36);
+}
+#twitter{margin-top: 10px;
+    margin-left:5px;
+    width:30px;
+    height:30px;
+}
+#fb{
+    margin-top: 10px;
+    margin-left:5px;
+    width:30px;
+    height:30px;
+}
+#insta{
+    margin-top: 10px;
+    margin-left:5px;
+    width:30px;
+    height:30px;
+}
+.nav-item{
+    margin-top: 20px;
+}
+#list1{
+    display:flex;
+    list-style: none;
+}
+.nav-link:hover{
+    background-color: yellowgreen;
+}
+ .c-item{
+    height: 380px;
+ }
+ .c-image{
+    height:100%;
+    object-fit:cover;
+ }
+ #logo{
+    width:120px;
+    height:80px;
+ }
+ /* login page */
+ #login{
+    background-image:url(images/carousal1/n3.jpg);
+    background-size: cover;
+ }
+ .form-login{
+    background: rgba(236,240,241,.65);
+    border-radius: 10px;
+    padding:20px;
+    margin:auto;
+    margin-top: 30px;;
+    max-width:400px ;
+    width:100%;
+    font-weight: 600;
+ }
+ .btn-primary:hover{
+    background: rgb(220, 220, 115);
+    
+ }
+ .btn{
+    margin-left:130px;
+ }
+.sign-uplink{
+    background: rgba(236,240,241,.65);
+    border-radius: 10px;
+    padding:20px;
+    margin:auto;
+    margin-top: 20px;;
+    max-width:400px ;
+    width:100%;
+    font-weight: 600;
+}
+/* signup page */
+#signup{
+background-image: url("images/carousal1/signup.jpg");
+background-size: cover;
+}
+.signup-text{
+    font-size:small;
+}
+a{
+    text-decoration:none;
+}
+/* home page card carousel */
+.card-wrapper{
+    display: flex;
+}
+.card{
+    margin:10px;
+    width:calc(100/3);
+    
+}
+.image-wrapper{
+    height:18vw;
+    align-items: center;
+    justify-content: center;
+}
+.image-wrapper img{
+    max-width: 100%;
+    max-height: 100%;
+}
+/* district page */
+
+.img-wrapper{
+    height:12vw;
+    align-items: center;
+    justify-content: center;
+}
+.img-wrapper img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+col{
+    height:60px;
+    width:60px;
+    margin:2px;
+}
+
+
+
+
+
+
+
+
+
