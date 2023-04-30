@@ -1,0 +1,79 @@
+
+*{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    background-color: rgb(36, 145, 36);
+}
+#twitter{margin-top: 10px;
+    margin-left:5px;
+    width:30px;
+    height:30px;
+}
+#fb{
+    margin-top: 10px;
+    margin-left:5px;
+    width:30px;
+    height:30px;
+}
+#insta{
+    margin-top: 10px;
+    margin-left:5px;
+    width:30px;
+    height:30px;
+}
+.nav-item{
+    margin-top: 20px;
+}
+#list1{
+    display:flex;
+    list-style: none;
+}
+.nav-link:hover{
+    background-color: yellowgreen;
+}
+.c-item{
+    height: 380px;
+ }
+ .c-image{
+    height:100%;
+    object-fit:cover;
+ }
+ #logo{
+    width:120px;
+    height:80px;
+ }
+ .card{
+    margin-top:20px;
+    border: none;
+
+ }
+ .card img{
+    height:12rem;
+    object-fit:cover
+    
+}
+.card-title{
+    color:black;
+    text-align: center;
+}
+
+@keyframes cardEntrance{
+    from{
+        opacity:0;
+        transform:scale(0.3);
+        filter:hue-rotate(180deg);
+    }
+    to{
+        opacity:1;
+        transform: scale(1);
+        filter: hue-rotate(0deg);
+    }
+}
+.myanimation{
+    animation:cardEntrance 500ms ease-in-out both;
+}
+.card:hover{
+    transform: scale(1.1) !important;
+}

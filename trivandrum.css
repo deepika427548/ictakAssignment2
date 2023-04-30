@@ -1,0 +1,100 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    background-color: rgb(36, 145, 36);
+}
+#twitter{margin-top: 10px;
+    margin-left:5px;
+    width:30px;
+    height:30px;
+}
+#fb{
+    margin-top: 10px;
+    margin-left:5px;
+    width:30px;
+    height:30px;
+}
+#insta{
+    margin-top: 10px;
+    margin-left:5px;
+    width:30px;
+    height:30px;
+}
+.nav-item{
+    margin-top: 20px;
+}
+#list1{
+    display:flex;
+    list-style: none;
+}
+.nav-link:hover{
+    background-color: yellowgreen;
+}
+ .c-item{
+    height: 380px;
+ }
+ .c-image{
+    height:100%;
+    object-fit:cover;
+ }
+ #logo{
+    width:120px;
+    height:80px;
+ }
+ .section .card{
+    border: none;
+ }
+ .card img{
+    border-radius: 0%;
+ }
+ #sec1 .card{
+    height: 380px;
+ }
+ #sec1 .card img{
+    height:100%;
+    object-fit:cover;
+ }
+ #sec1 .card-title{
+ font-size: x-large;
+ color: black;
+ font-weight:bolder;
+ }
+ .container a{
+text-decoration: none;
+color:black;
+text-align:center;
+ }
+ .container a:hover{
+    color: blue;
+ }
+ .container h1{
+    text-align: center;
+ }
+ .row{
+
+    margin-left: 130px;
+width:100%;
+ }
+ .card-wrapper {
+    margin-top:40px;
+    border: none;
+   
+    
+
+ }
+ .card-wrapper img{
+    height:12rem;
+    object-fit:cover;
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+.card-title{
+    color:black;
+    text-align: center;
+}
+.card-wrapper .card:hover{
+    transform: scale(1.1) !important;
+}
