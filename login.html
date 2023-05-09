@@ -52,20 +52,24 @@
         
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Email</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" onkeyup="validateEmail()">
+            <span id="emailError"></span>
           </div>
         <div class="mb-3">
           <label for="exampleInputPassword1" class="form-label">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
+          <input type="password" class="form-control" id="exampleInputPassword1" onkeyup="validatePassword()">
+          <span id="passwordError"></span>
        </div>
        <div class="mb-3 form-check">
         <input type="checkbox" class="form-check-input" id="exampleCheck1">
         <label class="form-check-label" for="exampleCheck1">Remember me</label>
       </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary" onclick="return validation()">Submit</button>
+        <span id="submitError"></span>
       </form>
       <div class="sign-uplink">
         <p>New to Kerala Tourism Org? <a href="signup.html">Create an account</a></p>
       </div>
+      <script src="login.js"></script>
 </body>
 </html>

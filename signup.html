@@ -49,26 +49,33 @@
        <form class="form-login">
         <div class="mb-3">
           <label for="exampleInputUsername" class="form-label">User name</label>
-          <input type="Username" class="form-control" id="exampleInputUsername" aria-describedby="emailHelp">
+          <input type="Username" class="form-control" id="exampleInputUsername" aria-describedby="emailHelp" onkeyup="validateName()">
+          <span id="nameError"></span>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputphone1" class="form-label">Phone</label>
+          <input  class="form-control" id="exampleInputphone1" aria-describedby="emailHelp" onkeyup="validatePhone()">
+          <span id="phoneError"></span>
         </div>
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Email</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" onkeyup="validateEmail()">
+            <span id="emailError"></span>
           </div>
         <div class="mb-3">
           <label for="exampleInputPassword1" class="form-label">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
-       </div>
-       <div class="signup-text">
-        <p>Make sure it's atleast 15 characters OR least 8 characters
-            including a number and a lowercase letter.<a href="#">Learn more.</a>
-        </p>
-     </div>
+          <input type="password" class="form-control" id="exampleInputPassword1" onkeyup="validatePassword()">
+          <span id="passwordError"></span> 
+        </div>
        
-        <button type="submit" class="btn btn-primary">Create an account</button>
-      </form>
+       
+       
+     <button type="submit" class="btn btn-primary" onclick="return validation()">Create an account</button>
+      <span id="submitError"></span>
+    </form>
       <div class="sign-uplink">
-        <p>Already have an account? <a href="signup.html">Sign in</a></p>
+        <p>Already have an account? <a href="login.html">Sign in</a></p>
       </div>
+      <script src="signup.js"></script>
 </body>
 </html>
